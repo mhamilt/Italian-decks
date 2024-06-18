@@ -45,3 +45,28 @@ For Tarocco decks, there is a directory for the `semi/` and `triunfi/`. Triunfi 
 
 
 #### Triunfi
+
+|     Rank |                              Card                               |
+| -------: | :-------------------------------------------------------------: |
+|    Matto | <img src="decks/tarroco-bolognese/triunfi/t1.png" width="15%">  |
+|   Bégato | <img src="decks/tarroco-bolognese/triunfi/t2.png" width="15%">  |
+|   Moro I | <img src="decks/tarroco-bolognese/triunfi/t3.png" width="15%">  |
+|  Moro II | <img src="decks/tarroco-bolognese/triunfi/t4.png" width="15%">  |
+| Moro III | <img src="decks/tarroco-bolognese/triunfi/t5.png" width="15%">  |
+|  Moro IV | <img src="decks/tarroco-bolognese/triunfi/t6.png" width="15%">  |
+|        V | <img src="decks/tarroco-bolognese/triunfi/t7.png" width="15%">  |
+|       VI | <img src="decks/tarroco-bolognese/triunfi/t8.png" width="15%">  |
+|      VII | <img src="decks/tarroco-bolognese/triunfi/t9.png" width="15%">  |
+|     VIII | <img src="decks/tarroco-bolognese/triunfi/t10.png" width="15%"> |
+|       IX | <img src="decks/tarroco-bolognese/triunfi/t11.png" width="15%"> |
+|        X | <img src="decks/tarroco-bolognese/triunfi/t12.png" width="15%"> |
+|       XI | <img src="decks/tarroco-bolognese/triunfi/t13.png" width="15%"> |
+|      XII | <img src="decks/tarroco-bolognese/triunfi/t14.png" width="15%"> |
+|     XIII | <img src="decks/tarroco-bolognese/triunfi/t15.png" width="15%"> |
+|      XIV | <img src="decks/tarroco-bolognese/triunfi/t16.png" width="15%"> |
+|       XV | <img src="decks/tarroco-bolognese/triunfi/t17.png" width="15%"> |
+|      XVI | <img src="decks/tarroco-bolognese/triunfi/t18.png" width="15%"> |
+|     Sole | <img src="decks/tarroco-bolognese/triunfi/t19.png" width="15%"> |
+|     Luna | <img src="decks/tarroco-bolognese/triunfi/t20.png" width="15%"> |
+|    Mondo | <img src="decks/tarroco-bolognese/triunfi/t21.png" width="15%"> |
+|   Angelo | <img src="decks/tarroco-bolognese/triunfi/t22.png" width="15%"> |
