@@ -188,13 +188,27 @@
       console.log(window);
       let cw = w / 11;
       let ch = 1.9 * cw;
-      if (h < w) {
-        ch = h / 6;
-        cw = ch / 2;
-      }
 
-      let sw = (w - (cw * 10)) / 12;
+      let sw = (w - (cw * 12)) / 12;
       let sh = (h - (ch * 4)) / 6;
+      let row_margin = (w - (cw + sw) * 11) / 6;
+      let col_margin = (h - ((ch + sh) * 4)) / 5;
+
+      if (h < w) {
+        ch = h / 5;
+        cw = ch / 2;
+        // sw = (w - (cw * 14)) / 12;
+        sw = 10;
+        // sh = (h - (ch * 8)) / 5;
+        sh = 5;
+        row_margin = (w - (cw + sw) * 9) / 4;
+        // col_margin = (h - ((ch + sh) * 6)) / 5;
+        col_margin = 2;
+      }
+      else {
+        cw = w / 13;
+        ch = cw * 2;
+      }
 
 
       let dealInterval = setInterval(() => {
@@ -202,8 +216,8 @@
         let card = document.getElementById(card_ids[i]);
         card.style.width = `${cw}px`;
         card.childNodes[0].style.width = `${cw}px`;
-        card.style.left = `${((cw + sw/2) * (i % 10)) + sw/2}px`;
-        card.style.top = `${(Math.floor(i / 10) * (ch + sh/2) + sh/2)}px`;
+        card.style.left = `${((cw + sw / 2) * (i % 10)) + row_margin}px`;
+        card.style.top = `${(Math.floor(i / 10) * (ch + sh / 2) + col_margin)}px`;
         i++
         if (i == 40) {
           clearInterval(dealInterval);
@@ -213,13 +227,14 @@
 
             for (let i = 0; i < card_ids.length; i++) {
               let card = document.getElementById(shuffled_card_ids[i]);
-              card.style.left = `${((cw + sw/2) * (i % 10)) + sw/2}px`;
-              card.style.top = `${(Math.floor(i / 10) * (ch + sh/2) + sh/2)}px`;
+              card.style.left = `${((cw + sw / 2) * (i % 10)) + row_margin}px`;
+              card.style.top = `${(Math.floor(i / 10) * (ch + sh / 2) + col_margin)}px`;
+              card.style.zIndex = `${i}`;
             }
 
           }, 5000);
         }
-      }, 250);
+      }, 1);
 
 
     }
