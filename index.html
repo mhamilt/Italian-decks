@@ -20,6 +20,7 @@
       border-radius: 7%;
       cursor: move;
       z-index: 0;
+      
     }
 
     .notransition {
@@ -221,8 +222,10 @@
         let card = document.getElementById(card_ids[i]);
         card.style.width = `${cw}px`;
         card.childNodes[0].style.width = `${cw}px`;
-        card.style.left = `${((cw + sw / 2) * (i % 10)) + row_margin}px`;
+        card.style.left = `${((cw + sw / 2) * (i % 10)) + row_margin}px`;        
         card.style.top = `${(Math.floor(i / 10) * (ch + sh / 2) + col_margin)}px`;
+        card.style.rotate = `${-0.0625 + (0.0125*(i%10))}turn`;
+      
         i++
         if (i == 40) {
           clearInterval(dealInterval);
