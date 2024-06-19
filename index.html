@@ -190,30 +190,26 @@
       let cw = w / 11;
       let ch = 1.9 * cw;
 
-      let sw = (w - (cw * 12)) / 12;
-      let sh = (h - (ch * 4)) / 6;
-      let row_margin = (w - (cw + sw) * 11) / 6;
-      let col_margin = (h - ((ch + sh) * 4)) / 5;
+      let sw = 0;
+      let sh = 0;
+      let row_margin = 0;
+      let col_margin = 0;
 
       if (h < w) {
         ch = h / 5;
         cw = ch / 2;
-        // sw = (w - (cw * 14)) / 12;
-        sw = 10;
-        // sh = (h - (ch * 8)) / 5;
-        sh = 5;
-        row_margin = (w - (cw + sw) * 9) / 4;
-        // col_margin = (h - ((ch + sh) * 6)) / 5;
-        col_margin = 2;
+        sw = (w - (cw * 10)) / 10;
+        sh = (h - (ch * 4)) / 4;
+        row_margin = (w - (cw + sw)*6) / 4;
+        col_margin = (h - ((ch + sh) * 3)) / 4;
+        // col_margin = 2;
       }
       else {
-        cw = w / 13;
+        cw = w / 10;
         ch = cw * 2;
-
-        sw = (w - (cw * 12)) / 12;
-        sh = (h - (ch * 4)) / 6;
-        row_margin = (w - (cw + sw) * 11) / 6;
-        col_margin = (h - ((ch + sh) * 4)) / 5;
+        sh = (h - (ch * 4)) / 4;
+        row_margin = (w - (cw + sw) * 10) / 10;
+        col_margin = (h - ((ch + sh) * 3)) / 2;
       }
 
 
