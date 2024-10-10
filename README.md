@@ -66,3 +66,22 @@ For Tarocco decks, there is a directory for the `semi/` and `triunfi/`. Triunfi 
 |                              Sole                               |                              Luna                               |                              Mondo                              |                             Angelo                              |
 
 
+## Bresciane
+
+
+
+|   Grado |         Bastone         |          Cuppe          |         Denari          |          Spade          |
+| ------: | :---------------------: | :---------------------: | :---------------------: | :---------------------: |
+|       1 | ![ ](decks/bresciane/b1.png)  | ![ ](decks/bresciane/c1.png)  | ![ ](decks/bresciane/d1.png)  | ![ ](decks/bresciane/s1.png)  |
+|       2 | ![ ](decks/bresciane/b2.png)  | ![ ](decks/bresciane/c2.png)  | ![ ](decks/bresciane/d2.png)  | ![ ](decks/bresciane/s2.png)  |
+|       3 | ![ ](decks/bresciane/b3.png)  | ![ ](decks/bresciane/c3.png)  | ![ ](decks/bresciane/d3.png)  | ![ ](decks/bresciane/s3.png)  |
+|       4 | ![ ](decks/bresciane/b4.png)  | ![ ](decks/bresciane/c4.png)  | ![ ](decks/bresciane/d4.png)  | ![ ](decks/bresciane/s4.png)  |
+|       5 | ![ ](decks/bresciane/b5.png)  | ![ ](decks/bresciane/c5.png)  | ![ ](decks/bresciane/d5.png)  | ![ ](decks/bresciane/s5.png)  |
+|       6 | ![ ](decks/bresciane/b6.png)  | ![ ](decks/bresciane/c6.png)  | ![ ](decks/bresciane/d6.png)  | ![ ](decks/bresciane/s6.png)  |
+|       7 | ![ ](decks/bresciane/b7.png)  | ![ ](decks/bresciane/c7.png)  | ![ ](decks/bresciane/d7.png)  | ![ ](decks/bresciane/s7.png)  |
+|       8 | ![ ](decks/bresciane/b8.png)  | ![ ](decks/bresciane/c8.png)  | ![ ](decks/bresciane/d8.png)  | ![ ](decks/bresciane/s8.png)  |
+|       9 | ![ ](decks/bresciane/b9.png)  | ![ ](decks/bresciane/c9.png)  | ![ ](decks/bresciane/d9.png)  | ![ ](decks/bresciane/s9.png)  |
+|      10 | ![ ](decks/bresciane/b10.png) | ![ ](decks/bresciane/c10.png) | ![ ](decks/bresciane/d10.png) | ![ ](decks/bresciane/s10.png) |
+|   fante | ![ ](decks/bresciane/b11.png) | ![ ](decks/bresciane/c11.png) | ![ ](decks/bresciane/d11.png) | ![ ](decks/bresciane/s11.png) |
+| cavallo | ![ ](decks/bresciane/b12.png) | ![ ](decks/bresciane/c12.png) | ![ ](decks/bresciane/d12.png) | ![ ](decks/bresciane/s12.png) |
+|      re | ![ ](decks/bresciane/b13.png) | ![ ](decks/bresciane/c13.png) | ![ ](decks/bresciane/d13.png) | ![ ](decks/bresciane/s13.png) |
