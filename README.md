@@ -2,6 +2,16 @@
 
 A repository of images of Italian card decks.
 
+- [Italian Decks](#italian-decks)
+  - [About](#about)
+  - [Structure](#structure)
+  - [Decks](#decks)
+    - [Tarocco Bolognese](#tarocco-bolognese)
+      - [Semi](#semi)
+      - [Triunfi](#triunfi)
+    - [Bresciane](#bresciane)
+
+
 ## About
 
 The intention of this repository is to be used as a submodule for any italian card game applications.
@@ -24,7 +34,9 @@ Rank starts from Ace and ends at king. For 40 card decks king is `10` and 52 dec
 
 e.g. the king of clubs in the napoletane deck would be `decks/b10.png`
 
-### Tarocco
+## Decks
+
+### Tarocco Bolognese
 
 For Tarocco decks, there is a directory for the `semi/` and `triunfi/`. Triunfi are numbered `1` - `22`, e.g. `t1.png`, `t2.png`, `...`, `t22.png`.
 
@@ -66,12 +78,12 @@ For Tarocco decks, there is a directory for the `semi/` and `triunfi/`. Triunfi 
 |                              Sole                               |                              Luna                               |                              Mondo                              |                             Angelo                              |
 
 
-## Bresciane
+### Bresciane
 
 
 
-|   Grado |         Bastone         |          Cuppe          |         Denari          |          Spade          |
-| ------: | :---------------------: | :---------------------: | :---------------------: | :---------------------: |
+|   Grado |            Bastone            |             Cuppe             |            Denari             |             Spade             |
+| ------: | :---------------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
 |       1 | ![ ](decks/bresciane/b1.png)  | ![ ](decks/bresciane/c1.png)  | ![ ](decks/bresciane/d1.png)  | ![ ](decks/bresciane/s1.png)  |
 |       2 | ![ ](decks/bresciane/b2.png)  | ![ ](decks/bresciane/c2.png)  | ![ ](decks/bresciane/d2.png)  | ![ ](decks/bresciane/s2.png)  |
 |       3 | ![ ](decks/bresciane/b3.png)  | ![ ](decks/bresciane/c3.png)  | ![ ](decks/bresciane/d3.png)  | ![ ](decks/bresciane/s3.png)  |
